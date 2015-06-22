@@ -10,8 +10,6 @@ An opinionated Table of Contents generator for Github. This allows only one leve
 
 `tocgen README.md`
 
-## Generating ToC
-
 <!-- START table-of-contents -->
 **Table of Contents**
 
