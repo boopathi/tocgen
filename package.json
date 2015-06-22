@@ -1,14 +1,19 @@
 {
   "name": "tocgen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple opinionated Table of Contents generator",
-  "main": "tocgen.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib --copy-files",
+    "watch": "babel src --out-dir lib --copy-files --watch"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/boopathi/tocgen"
+  },
+  "bin": {
+    "tocgen": "lib/tocgen.js"
   },
   "keywords": [
     "tocgen",
@@ -21,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/boopathi/tocgen/issues"
   },
-  "homepage": "https://github.com/boopathi/tocgen"
+  "homepage": "https://github.com/boopathi/tocgen",
+  "dependencies": {
+    "anchor-markdown-header": "^0.5.3",
+    "babel": "^5.6.2",
+    "bluebird": "^2.9.30",
+    "colors": "^1.1.2",
+    "commander": "^2.8.1"
+  }
 }
