@@ -2,6 +2,7 @@ import fsOrig from 'fs';
 import Promise from 'bluebird';
 import anchor from 'anchor-markdown-header';
 import path from 'path';
+import 'babel/polyfill';
 
 const fs = Promise.promisifyAll(fsOrig);
 

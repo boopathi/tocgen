@@ -1,5 +1,7 @@
+#!/usr/bin/env node
+
 import program from 'commander';
-import {version} from './package.json';
+import {version} from '../package.json';
 import 'colors';
 import tocgen from './';
 
@@ -14,6 +16,8 @@ var promises = program.args.map(function(file) {
     })
     .catch(function(e) {
       console.log('Failed'.red + ': ' + file);
+      console.log('Reason'.red + ': ' + e.message);
+      console.log(e.stack);
       return Promise.resolve(e);
     });
 });
