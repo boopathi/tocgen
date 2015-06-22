@@ -1,0 +1,25 @@
+{
+  "name": "tocgen",
+  "version": "0.0.0",
+  "description": "A simple opinionated Table of Contents generator",
+  "main": "tocgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boopathi/tocgen"
+  },
+  "keywords": [
+    "tocgen",
+    "table",
+    "of",
+    "contents"
+  ],
+  "author": "boopathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boopathi/tocgen/issues"
+  },
+  "homepage": "https://github.com/boopathi/tocgen"
+}
