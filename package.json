@@ -4,7 +4,7 @@
   "description": "A simple opinionated Table of Contents generator",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "in-publish && npm run build || in-install",
     "build": "babel src --out-dir lib --copy-files",
     "watch": "babel src --out-dir lib --copy-files --watch"
   },
@@ -33,5 +33,8 @@
     "bluebird": "^2.9.30",
     "colors": "^1.1.2",
     "commander": "^2.8.1"
+  },
+  "devDependencies": {
+    "in-publish": "^1.1.1"
   }
 }
