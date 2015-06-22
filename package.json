@@ -1,6 +1,6 @@
 {
   "name": "tocgen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple opinionated Table of Contents generator",
   "main": "lib/index.js",
   "scripts": {
