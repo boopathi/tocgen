@@ -29,12 +29,12 @@
   "homepage": "https://github.com/boopathi/tocgen",
   "dependencies": {
     "anchor-markdown-header": "^0.5.3",
-    "bluebird": "^2.9.30",
+    "bluebird": "^3.4.7",
     "colors": "^1.1.2",
     "commander": "^2.8.1"
   },
   "devDependencies": {
-    "babel": "^5.6.2",
-    "in-publish": "^1.1.1"
+    "babel": "^6.23.0",
+    "in-publish": "^2.0.0"
   }
 }
