@@ -1,5 +1,7 @@
 # tocgen
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boopathi/tocgen.svg)](https://greenkeeper.io/)
+
 An opinionated Table of Contents generator for Github. This allows only one level headings - specified via comments, and supports only heading level 5 for all items. Why? Too much bold text and headings spoil readability for certain type of content.
 
 For a fully featured Table of Contents generator, use https://github.com/thlorenz/doctoc
